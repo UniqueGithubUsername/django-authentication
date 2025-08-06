@@ -28,6 +28,7 @@ Usage of the repo:
 
 ```sh
 git clone https://github.com/UniqueGithubUsername/django-authentication.git
+cd DjangoAuthentication
 python manage.py runserver
 ```
 
