@@ -13,6 +13,12 @@ This repository is mainly for documentation of the implementation of the authent
 
 While for many applications writing an own authentication backend can be handy or necessary, here the initial authentication backend model is used and not changed. The focus is on extending the existing user model and implementing the _registration_, _login_ and _logout_ functionalities.
 
+<div align="center">
+  <a href="https://github.com/UniqueGithubUsername/django-authentication">
+    <img src="main/static/main/login.png" alt="Logo" width="500" height="700">
+  </a>
+</div>
+
 ## Installation
 
 Before using this repository please make sure you have the following dependencies installed.
