@@ -18,7 +18,7 @@
   <title>Django Authentication {% block title %}{% endblock %}</title>
 </head>
 <body>
-<div class="osd-nav">
+<!-- <div class="osd-nav">
   <a href="{% url 'index' %}">Home</a>
 
   {% if user.is_authenticated %}
@@ -28,8 +28,11 @@
   {% endif %}
   {% block nav %}
   {% endblock %}
+</div> -->
+<div class="osd-content">
+  {% block content %}
+  {% endblock %}
 </div>
-{% block content %}
-{% endblock %}
+
 </body>
 </html>

@@ -1,15 +1,15 @@
 /* color scheme */
 :root {
-    --background: #f8f4f0;
+    --background: #ffe7ed;
     --background2: #f2f2f2;
     --font: #121212;
     --font-light: #343434;
     --error: #cf6679;
-    --primary: #e53632;
+    --primary: #f38992;
     --primary2: #32e2e5;
-    --primary_dark: #c62423;
-    --ana1: #e53289;
-    --ana2: #e58e32;
+    --primary_dark: #ee2846;
+    --ana1: #f389c7;
+    --ana2: #f3b589;
     --tri1: #e2e532;
     --tri2: #32e535;
     --border: #d2d2d2;
@@ -20,9 +20,9 @@
     --white: #fff;
     --white1: #f2f2f2;
     --white2: #e2e2e2;
-  }
+}
 
-  /* global settings */
+/* global settings */
 html {
     font-family: Roboto, Arial, sans-serif !important;
     margin: 0;
@@ -73,3 +73,82 @@ a {
     color: var(--primary);
 }
 
+/* Content */
+.osd-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--background);
+}
+
+/* Forms */
+.osd-form {
+    padding: 16px;
+    border-radius: 16px;
+    background-color: var(--white);
+    width: 400px;
+}
+
+.osd-form label, .osd-form input, .osd-form button {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding-bottom: 4px;
+}
+
+.osd-form label {
+    color: var(--black2);
+    font-size: 14px;
+}
+
+.osd-form input {
+    outline: none;
+    border: 1px solid var(--background);
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.osd-form input:focus {
+    border: 1px solid var(--primary_dark);
+
+}
+
+.osd-form button {
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.osd-form button:hover {
+    background-color: var(--primary_dark);
+    color: var(--white);
+}
+
+.osd-form-top {
+    text-align: center;
+}
+
+.osd-form a {
+    color: var(--ana2);
+}
+
+.osd-form a:hover {
+    color: var(--ana1);
+}
+
+.osd-form ul {
+    list-style-type: none;
+    color: var(--ana1);
+    font-size: 12px;
+}
+
+.osd-form span {
+    display: none;
+}
+
+.osd-logo {
+    width: 200px;
+}

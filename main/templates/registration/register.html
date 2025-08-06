@@ -9,16 +9,15 @@
 <div class="osd-form">
 	<div class="osd-form-top">
 		<a href="{% url 'index' %}"><img class="osd-logo" src="{% static 'main/logo.png' %}"></a>
-		<p><b>Welcome back</b><br>Login to your account</p>
+		<p><b>Welcome</b><br>Create your account</p>
 	</div>
   	<form method="post">
 		{% csrf_token %}
   		{{ form.as_p }}
-		<p><a href="{% url 'index' %}">Forgot password?</a></p>
-  		<button class="acs-button" type="submit">Login</button>
+  		<button class="acs-button" type="submit">Register</button>
 	</form>
 	<div class="osd-form-top">
-		<p>Don't have an account?<br><a href="{% url 'register' %}">Register here.</a></p>
+		<p>Already have an account?<br><a href="{% url 'login' %}">Login here.</a></p>
 	</div>
 </div>
 {% endblock %}
