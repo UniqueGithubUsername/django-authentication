@@ -8,28 +8,33 @@
 # Django Authentication
 
 This is a django application which uses a customized setup of the django user authentication system.
+This repository is mainly for documentation of the implementation of the authentication system.
+
 
 ## Installation
 
-Before using this repository please make sure you have Python installed.
+Before using this repository please make sure you have the following dependencies installed.
 
-_Usage of the repo:_
+### Dependencies
+
+[![Python][Python]][Python-url]
+[![Django][Django]][Django-url]
+
+
+### Usage
+
+Usage of the repo:
 
 ```sh
 git clone https://github.com/UniqueGithubUsername/django-authentication.git
 cd DjangoAuthentication
 python manage.py runserver
 ```
-   
-### Built With
 
-This application is built with:
 
-[![Django][Django]][Django-url]
+## About me
 
-### About
-
-By:
+Lukas Lenz
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -38,7 +43,10 @@ By:
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lukas-lenz
 
-[Django]: https://img.shields.io/badge/django-green?style=for-the-badge&logo=django
+[Python]: https://img.shields.io/badge/python-white?style=for-the-badge&logo=python
+[Python-url]: https://www.python.org/
+
+[Django]: https://img.shields.io/badge/django-092e20?style=for-the-badge&logo=django
 [Django-url]: https://www.djangoproject.com/
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
