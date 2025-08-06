@@ -1,0 +1,75 @@
+/* color scheme */
+:root {
+    --background: #f8f4f0;
+    --background2: #f2f2f2;
+    --font: #121212;
+    --font-light: #343434;
+    --error: #cf6679;
+    --primary: #e53632;
+    --primary2: #32e2e5;
+    --primary_dark: #c62423;
+    --ana1: #e53289;
+    --ana2: #e58e32;
+    --tri1: #e2e532;
+    --tri2: #32e535;
+    --border: #d2d2d2;
+    --border2: #a2a2a2;
+    --black: #121212;
+    --black1: #424242;
+    --black2: #848484;
+    --white: #fff;
+    --white1: #f2f2f2;
+    --white2: #e2e2e2;
+  }
+
+  /* global settings */
+html {
+    font-family: Roboto, Arial, sans-serif !important;
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+  
+h2 {
+    font-size: 2.5rem;
+}
+  
+h3 {
+    font-size: 2rem;
+}
+  
+h4 {
+    font-size: 1.8rem;
+}
+  
+h5 {
+    font-size: 1.6rem;
+}
+  
+h6 {
+    font-size: 1.4rem;
+}
+  
+a {
+    text-decoration: none !important;
+}
+
+/* Navigation */
+.osd-nav {
+    padding: 8px;
+    background-color: var(--primary2);
+}
+
+.osd-nav a {
+    padding: 8px 16px;
+    color: var(--primary);
+}
+
