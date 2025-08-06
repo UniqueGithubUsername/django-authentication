@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/UniqueGithubUsername/django-authentication">
-    <img src="DjangoAuthentication/main/static/main/django.png" alt="Logo" width="80" height="80">
+    <img src="main/static/main/django.png" alt="Logo" width="80" height="80">
   </a>
 </div>
 
@@ -25,7 +25,7 @@ python manage.py runserver
 
 This application is built with:
 
-* [![Django][Django]][Django-url]
+[![Django][Django]][Django-url]
 
 ### About
 
